@@ -60,7 +60,7 @@ ul,  li, a {
 }
 
 #donate-section{
-    height: 100vh;
+    height: 100%;
     color: #575757;
     text-align: center;
     margin:5% ;
@@ -164,4 +164,38 @@ h3{
     font-size: 18px;
     width: 600px;
     margin: 0 auto;
+}
+.newsletter{
+    background-image: url("images/Frame57.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #575757;
+}
+.newsletter p{
+    font-size: 20px;
+}
+input[type=email]{
+    color: #575757;
+    margin: 20px;
+    width: 50%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #575757;
+    font-size: 20px;
+    text-align: center;
+    background: none;
+}
+footer{
+    text-align: center;
+    background: #000;
+    color: #999999;
+}
+footer h1{
+    font-family: 'Homemade Apple', cursive;
+    color: #FF5959;
+}
+footer a{
+    font-family: 'Homemade Apple', cursive;
+color: rgb(201, 134, 11);
 }
