@@ -110,10 +110,10 @@ input[type=number]{
     width: 400px;
     margin: 20px;
     border-radius: 5px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 .card-one{
     background: rgba(90, 223, 123, 0.288);
@@ -131,4 +131,37 @@ h3{
     font-weight: bold;
     font-size: 24px;
     margin: 20px;
+}
+.donation-card h3{
+    margin: 10% 5% 5% 0 ;
+}
+.donation-card img{
+    padding-top: 5%;
+    width: 300px;
+   height: 200px;
+}
+.donation-card{
+    text-align: start;
+    padding: 0 2%;
+    width: 100%;
+    height: 100%;
+    margin: 30px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: rgba(0, 0, 0, 0.062);
+}
+.donation-area{
+    display: flex;
+}
+.card-content{
+    margin-bottom: 20px;
+}
+
+.partner-content p{
+    font-size: 18px;
+    width: 600px;
+    margin: 0 auto;
 }
