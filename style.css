@@ -1,3 +1,5 @@
+/* Common Css */
+/* --------------- */
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +8,19 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+ul,  li, a {
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
 #hero-section{
     text-align: center;
     color: #ffffff;
@@ -30,6 +45,7 @@ body{
     font-size: 18px;
 }
 .btn{
+    margin: 20px 0;
     border: none;
     border-radius: 20px;
     color: white;
@@ -41,4 +57,50 @@ body{
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+}
+
+#donate-section{
+    height: 100vh;
+    color: #575757;
+    text-align: center;
+    margin:5% ;
+}
+h2{
+    color: black;
+    margin: 20px 0;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.initi-ammount{
+    font-weight: bold;
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.123);
+    border: none;
+    margin: 40px 5px;
+    width: 150px;
+    height: 100px;
+    color: #575757;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+.focused{
+    color: #FF5959;
+    background: #ff59596c;
+    border: 1px solid #FF5959;
+
+}
+
+input[type=number]{
+    border: none;
+    border-bottom: 1px solid #575757;
+    width: 50%;
+    text-align: center;
+    outline: none;
+    font-size: 24px;
+    margin: 20px 0;
+    color: #575757;
 }
