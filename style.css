@@ -104,3 +104,31 @@ input[type=number]{
     margin: 20px 0;
     color: #575757;
 }
+.card{
+    padding: 5% 2%;
+    height: 150px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 5px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.card-one{
+    background: rgba(90, 223, 123, 0.288);
+}
+.card-two{
+    background: rgba(207, 105, 105, 0.329);
+}
+.card-three{
+    background: rgba(212, 150, 56, 0.226);
+}
+.donate-plan-card{
+    display: flex;
+}
+h3{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px;
+}
