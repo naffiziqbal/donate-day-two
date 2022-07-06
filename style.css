@@ -135,16 +135,20 @@ h3{
 .donation-card h3{
     margin: 10% 5% 5% 0 ;
 }
+
 .donation-card img{
     padding-top: 5%;
-    width: 300px;
+    width: 100%;
    height: 200px;
 }
+/* .help-area{
+    display: flex;
+    flex-direction: column;
+} */
 .donation-card{
+    width: 300px;
     text-align: start;
     padding: 0 2%;
-    width: 100%;
-    height: 100%;
     margin: 30px 10px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -160,7 +164,7 @@ h3{
     margin-bottom: 20px;
 }
 
-.partner-content p{
+.help-area-content p{
     font-size: 18px;
     width: 600px;
     margin: 0 auto;
