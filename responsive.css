@@ -1,0 +1,15 @@
+@media only  screen  and (max-width:1140px ) {
+    
+     #hero-section {
+        width: 1140px;
+        font-size: 10px;
+     }
+     #hero-section h1{
+        font-size: 40px;
+    }
+    .hero-content p{
+        width: 300px;
+        margin: 20px auto;
+        font-size: 16px;
+    }
+}
