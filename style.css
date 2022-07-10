@@ -40,7 +40,7 @@ button{
     height: 100vh;
 }
 .bg-img{
-  /*Theimageused*/background-image: url("./images/donation10.jpg");
+  background-image: url("./images/donation10.jpg");
   filter: blur(3px);
   -webkit-filter: blur(3px);
   height: 100%;
@@ -95,7 +95,7 @@ button{
     margin:5% ;
 }
 h2{
-    color: black;
+    color: rgb(56, 56, 56);
     margin: 20px 0;
     font-size: 45px;
     font-weight: bold;
@@ -133,8 +133,7 @@ input[type=number]{
 }
 .card{
     padding: 5% 2%;
-    height: 200px;
-    width: 400px;
+    width: 100%;
     margin: 20px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -146,6 +145,12 @@ input[type=number]{
     -moz-transition: 1s ease-in;
     -ms-transition: 1s ease-in;
     -o-transition: 1s ease-in;
+}
+.donate-plan-card{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
 }
 .card-one{
     background: rgba(90, 223, 123, 0.288);
@@ -179,11 +184,10 @@ h3{
     -o-transition: 1s ease;
 }
 .donation-card{
-    overflow: hidden;
-    width: 300px;
+    width: 100%;
     text-align: start;
     padding: 0 2%;
-    margin: 30px 10px;
+    margin: 20px 10px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -216,7 +220,9 @@ h3{
     color: #575757;
 }
 .newsletter p{
+    padding:0 5%;
     font-size: 20px;
+    color: red;
 }
 input[type=email]{
     color: #575757;
